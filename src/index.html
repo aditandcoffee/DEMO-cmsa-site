@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMSA clone</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body class="font-[Poppins]">
+    <!-- Top header start -->
+    <div class="bg-blue-800 lg:flex block justify-between items-center ">
+        <div>
+            <p class="text-white pl-12">Call Us: 9845815606</p>
+        </div>
+        <div>
+            <a class="lg:block hidden text-white mr-12 hover:text-blue-500 p-1" href="https://www.facebook.com/manavsewaashram.chitwan.1" target="_blank"><i class="ri-facebook-fill"></i></a>
+        </div>
+    </div>
+
+    <!-- top header end -->
+
+
+    <!-- navbar start -->
+   <!-- pc/tab navbar -->
+   <div class="md:flex hidden bg-slate-200 h-24 justify-around items-center shadow-xl sticky top-0 z-10">
+    <div>
+        <img  class="h-24" src="http://cmsa.org.np/images/logo.png"/>
+    </div>
+    <div class="flex cursor-pointer text-lg">
+        <a href="./index.html" class="ml-5 text-blue-600 hover:text-blue-600">Home</a>
+        <a href="./about.html" class="ml-5 hover:text-blue-600">About</a>
+        <a href="./gallery.html" class="ml-5 hover:text-blue-600">Gallery</a>
+        <a href="./events.html" class="ml-5 hover:text-blue-600">Events</a>
+        <a href="./contact.html" class="ml-5 hover:text-blue-600">About Us</a>
+    </div>
+    <div class="lg:block hidden bg-orange-600 px-3 py-2 text-white rounded-lg shadow-lg hover:scale-105 cursor-pointer">
+                    <!-- span vitra vayo vani font doen't work -->
+        <span class="ri-heart-3-fill"></span>&nbsp; Make a Donation
+    </div>
+</div>
+
+ <!-- mobile navbar -->
+ <div class="md:hidden block">
+    <div class="flex justify-around items-center">
+        <img  class="h-24" src="http://cmsa.org.np/images/logo.png"/>
+        <p onclick="hmenu()" class="text-3xl"><i class="ri-menu-line"></i></p>
+    </div>
+    <div class="relative ">
+        <div id="menu" class="hidden bg-gray-200 absolute top-0 left-0 right-0 z-[9999]">
+            <a href="./index.html" class=" block  p-2 ml-5 text-blue-600 hover:text-blue-600">Home</a>
+            <a href="./about.html" class=" block  p-2 ml-5 hover:text-blue-600">About</a>
+            <a href="./gallery.html" class=" block  p-2 ml-5 hover:text-blue-600">Gallery</a>
+            <a href="./events.html" class=" block  p-2 ml-5 hover:text-blue-600">Events</a>
+            <a href="./contact.html" class=" block  p-2 ml-5 hover:text-blue-600">About Us</a>
+    
+        </div>
+    </div>
+    
+
+ </div>
+ 
+    <!-- navbar end -->
+
+
+    <!-- Hero section start -->
+    <!-- swiper js -->
+    <div class="swiper myswiper">
+        <div class="swiper-wrapper">
+                            <div class="swiper-slide w-full">
+                    <div class="relative">
+                        <img class="w-full object-cover"
+                            src="http://cmsa.org.np/images/banners/nhh_1669901817.jpg">
+                        <div class="absolute inset-0 flex items-end justify-center">
+                            <div class="text-white border p-2 md:p-4 rounded-md mb-8 mx-2 md:mx-0">
+                                <p class="font-bold text-xs md:text-base">
+                                    Chitwan Manav Sewa Ashram
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="swiper-slide">
+                    <div class="relative">
+                        <img class="w-full object-cover"
+                            src="http://cmsa.org.np/images/banners/IMG_7164_1669900974.jpg">
+                        <div class="absolute inset-0 flex items-end justify-center">
+                            <div class="text-white border p-2 md:p-4 rounded-md mb-8 mx-2 md:mx-0">
+                                <p class="font-bold text-xs md:text-base">
+                                    Group Photo
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- siper js end -->
+
+    <!-- About Us Section start -->
+    <div class="md:grid grid-cols-2 lg:gap-3  lg:mx-24 md:mx-12 mx-5 py-12 ">
+        <div class="wow animate__animated animate__fadeInLeft"><img src="http://cmsa.org.np/images/oldhand.jpg"></div>
+        <div class=" md:mx-12 md:my-0 my-5">
+            <div class="wow animate__animated animate__fadeInRight">
+                <span class="  border-l-4 border-blue-600  text-2xl text-blue-600 px-5 ">About Us</span><br>
+                <span class="border-l-4 border-blue-600 lg:text-2xl text-xs lg:px-5 px-2">Human service is the best way of life</span>
+            </div><br>
+            
+            <p class="text-justify mt-5 mb-12 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum deleniti molestias molestiae obcaecati ipsam accusantium aperiam numquam accusamus dolorum iusto aut repellendus tempora deserunt nisi quo, provident laborum porro libero voluptatem similique reiciendis cum officiis. Necessitatibus inventore quaerat ad quod, aspernatur sapiente a voluptate debitis veritatis impedit ab, commodi repudiandae.</p>
+            <div class="hover:scale-105 hover:ml-3">
+                <a  class="bg-orange-600 px-3 py-2 text-white cursor-pointer shadow-lg" href="#">View More</a>
+            </div>
+        </div>
+    </div>
+    <!-- About Us Section end -->
+    
+
+
+    <!-- Gallery section start -->
+    <div class="wow animate__animated animate__backInLeft md:mx-24 mx-5">
+        <div class="border-l-4 border-blue-600 my-24">
+            <p class=" text-3xl ml-3 text-blue-600">Gallery</p>
+            <p class="text-2xl ml-3">View our gallery photos at a glance</p>
+        </div>
+        <div>
+
+        </div>
+    </div>
+    <div class="grid grid-cols-3 md:gap-10 gap-3 md:mx-24 mx-5 mt-4">
+        <a data-fancybox data-src="https://lipsum.app/id/1/1600x1200" data-caption="Hello world">
+            <img class="w-full" src="https://lipsum.app/id/1/200x150"/>
+        </a>
+        <a data-fancybox data-src="https://lipsum.app/id/1/1600x1200" data-caption="Hello world">
+            <img class="w-full" src="https://lipsum.app/id/1/200x150"/>
+        </a>
+        <a data-fancybox data-src="https://lipsum.app/id/1/1600x1200" data-caption="Hello world">
+            <img class="w-full" src="https://lipsum.app/id/1/200x150"/>
+        </a>
+    </div>
+    <div class="mt-24 w-full">
+        <a  class="bg-blue-100 px-3 py-2  rounded-lg justify-center ml-[45%] cursor-pointer" href="#">View All</a>
+    </div>
+
+  <!-- Gallery section end -->
+
+  <!-- Helping today section 1 start -->
+<div class="grid md:grid-cols-2 lg:mx-24 mx-12 gap-10 my-24">
+    <div class="lg:mt-44">
+        <span class="text-blue-600 text-xl">Helping Today</span><br>
+        <span class="text-4xl">What we are doing</span>
+        <p class="text-justify lg:mt-12 mt-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim fugiat, nam id inventore laborum atque.
+            Impedit officia, necessitatibus quo minus veniam corrupti id delectus molestiae quas natus repellat
+            asperiores Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, officiis!
+        </p>
+        <div class="wow animate__animated animate__backInUp  mt-12">
+            <a class=" border-2 border-orange-400 text-slate-800 px-3 py-2 hover:bg-orange-400 hover:text-white rounded shadow-lg" href="#">Join Us Today</a>
+        </div>
+    </div>
+    <div class="wow animate__animated animate__backInUp">
+        <img src="http://cmsa.org.np/images/6.jpeg" alt="" srcset="">
+    </div>
+</div>
+
+<!-- Helping today section 1 end  -->
+
+<!-- Helping today section 2 start -->
+<div class="wow animate__animated animate__bounceIn text-center lg:mx-24 md:mx-12 mx-5 my-24">
+    <span class="text-blue-500 text-2xl">Helping Today</span>
+    <p class="text-4xl">
+        How We Help People
+    </p>
+</div>
+<div class="wow animate__animated animate__bounceInUp grid lg:grid-cols-3 lg:mx-24 mx-12 gap-12">
+    <div class="bg-blue-100 rounded shadow-lg text-center pt-8 md:px-12 px-5 pb-12">
+        <div class="text-center">
+            <img class="bg-blue-500 rounded-full pt-1 pb-5 mx-auto px-3 mb-12" src="http://cmsa.org.np/images/icons8-lemon-64.png" alt="">
+        </div>
+        <p class="text-blue-500 text-2xl mb-3">Healthy Food & Water</p>
+        <p class="mt-8 lg:pb-12 text-justify">Chitwan Manavsewa Asharam takes care of hygine, cleanliness and purity of everything. We provide fresh and healty foods and water in our organisation.</p>
+    </div>
+
+    <div class="bg-blue-100 rounded shadow-lg text-center pt-8 md:px-12 px-5 pb-12">
+        <div class="text-center">
+            <img class="bg-blue-500 rounded-full pt-1 mx-auto pb-5 px-3 mb-12" src="http://cmsa.org.np/images/icons8-lemon-64.png" alt="">
+        </div>
+        <p class="text-blue-500 text-2xl mb-3 ">Health & Medicine</p>
+        <p class="mt-8 lg:pb-12 text-justify">Chitwan Manavsewa Asharam takes care of hygine, cleanliness and purity of everything. We provide fresh and healty foods and water in our organisation.</p>
+    </div>
+
+    <div class="bg-blue-100 rounded shadow-lg text-center pt-8 md:px-12 px-5 pb-12">
+        <div class="text-center">
+            <img class="bg-blue-500 rounded-full pt-1 mx-auto pb-5 px-3 mb-12" src="http://cmsa.org.np/images/icons8-lemon-64.png" alt="">
+        </div>
+        <p class="text-blue-500 text-2xl mb-3">Home</p>
+        <p class="mt-8 lg:pb-12 text-justify">Chitwan Manavsewa Asharam takes care of hygine, cleanliness and purity of everything. We provide fresh and healty foods and water in our organisation.</p>
+    </div>
+</div>
+
+<!-- Helping today section 2 end -->
+
+<!-- footer section start -->
+<div class="bg-indigo-900">
+    <div class="wow animate__animated animate__backInLeft  grid lg:grid-cols-4 mt-24 pb-4 text-center">
+        <div class="lg:ml-24 text-white mt-5">
+            <a href="index.html">
+                <img class="h-24 mx-auto" src="http://cmsa.org.np/images/logo.png" alt="">
+            </a>
+            <p class="mb-3 mt-4">
+                Chitwan Manav Sewa Ashram is taking care of oldage and differently-abled people.
+            </p>
+            <a href="https://www.facebook.com/manavsewaashram.chitwan.1" >
+                <p class="px-1 py-0.5 text-4xl hover:-translate-y-1 duration-500 delay-300 transition-all ease-in-out"><i class="ri-facebook-box-fill"></i></p>
+                </a>
+        </div>
+        
+        <div class="text-white mt-10  lg:ml-24">
+            <p class="text-2xl font-bold">Quick Link</p>
+            <ul class="mt-5 cursor-pointer">
+                <a href="index.html" class="mt-2 hover:text-blue-400 block">Home</a>
+                <a href="about.html" class="mt-2 hover:text-blue-400 block">About</a>
+                <a href="gallery.html" class="mt-2 hover:text-blue-400 block">Gallery</a>
+                <a href="events.html" class="mt-2 hover:text-blue-400 block">Event</a>
+                <a href="contact.html" class="mt-2 hover:text-blue-400 block">Contact Us</a>
+            </ul>
+            
+        </div>
+    
+        <div class="wow animate__animated animate__backInLeft text-white mt-10">
+            <p class="text-2xl font-bold mb-7">Contact Us</p>
+            <div class="mb-8">
+                <p><i class="ri-map-pin-line"></i> Bharatpur-09, Chitwan</p>
+                <p><i class="ri-phone-fill"></i> +977-9855060909</p>
+                <p><i class="ri-mail-send-line"></i> chitwanmanavsewa@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="text-white mt-10 lg:ml-12 lg:mr-24 md:mb-0 mb-24">
+            <p class="text-2xl font-bold mb-7">Support Us</p>
+            <p class="mb-8">Get in touch with us if you wish to help the needy ones.</p>
+            <div class="cursor-pointer hover:scale-105">
+                <a class="bg-orange-500 px-3 py-2 rounded shadow-lg">Join Us Today</a>
+            </div>
+        </div>
+        
+        
+    
+    </div>
+</div>
+<hr>
+<div class="lg:flex justify-between bg-indigo-900 text-white lg:text-left text-center">
+    <p class="md:mx-24 md:text-sm text-sm">Copyright © 2023 All rights reserved | CMSA</p>
+    <p class="md:mx-24  md:text-sm text-sm">Powered by Adit</p>
+</div>
+
+
+
+    
+
+
+
+
+
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+      <!-- swiper js end -->
+    <script>
+        new WOW().init();
+    </script>
+      <script src="script.js"></script>
+    <script>
+        function hmenu() {
+            var x = document.getElementById("menu");
+            $("#menu").animate({
+            height: 'toggle'
+            });
+        }
+    </script>
+</body>
+</html>
